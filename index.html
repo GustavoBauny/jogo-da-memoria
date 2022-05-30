@@ -1,62 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Jogo da memória</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jogo da Memória</title>
 </head>
+
 <body>
-    <main class="memory-game">
-        <div class="card" data-card="bowser">
-            <img class="card-front" src="./img/bowser.jpg" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+
+    <div class="board">
+        <header>
+            <h1 class="header-title">Jogo da Memória</h1>
+        </header>
+        <main class="memory-game">
+        <div class="card" data-card="card1">
+            <img class="card-front" src="assets/img/card1.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="luigi">
-            <img class="card-front" src="./img/luigi.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card2">
+            <img class="card-front" src="assets/img/card2.png" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="mario">
-            <img class="card-front" src="./img/mario.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card3">
+            <img class="card-front" src="assets/img/card3.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="peach">
-            <img class="card-front" src="./img/peach.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card4">
+            <img class="card-front" src="assets/img/card4.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="toad">
-            <img class="card-front" src="./img/toad.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card5">
+            <img class="card-front" src="assets/img/card5.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="yoshi">
-            <img class="card-front" src="./img/yoshi.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card6">
+            <img class="card-front" src="assets/img/card6.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="bowser">
-            <img class="card-front" src="./img/bowser.jpg" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card1">
+            <img class="card-front" src="assets/img/card1.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="luigi">
-            <img class="card-front" src="./img/luigi.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card2">
+            <img class="card-front" src="assets/img/card2.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="mario">
-            <img class="card-front" src="./img/mario.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card3">
+            <img class="card-front" src="assets/img/card3.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="peach">
-            <img class="card-front" src="./img/peach.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card4">
+            <img class="card-front" src="assets/img/card4.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="toad">
-            <img class="card-front" src="./img/toad.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card5">
+            <img class="card-front" src="assets/img/card5.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-        <div class="card" data-card="yoshi">
-            <img class="card-front" src="./img/yoshi.png" alt="Face da carta">
-            <img class="card-back" src="./img/box.png" alt="Verso da carta">
+        <div class="card" data-card="card6">
+            <img class="card-front" src="assets/img/card6.jpg" alt="Face da carta">
+            <img class="card-back" src="assets/img/box.jpg" alt="Verso da carta">
         </div>
-    </main>
-    <script src="./assets/js/script.js"></script>
+        </main>
+        <footer id="footer">
+            <button class="temas-button"> Mudar Tema </button>
+            <p class="texto">(Indisponível no momento!)</p>
+        </footer>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
